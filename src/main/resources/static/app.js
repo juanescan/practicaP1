@@ -2,7 +2,7 @@ function loadGetMsg() {
   let list = document.getElementById("list").value;
   let value = document.getElementById("value").value;
   let isLinear = document.getElementById("searchType").checked;
-  let operation = isLinear ? "/linearsearch" : "/binarysearch";
+  let operation = isLinear ? "/math/linearsearch" : "/math/binarysearch";
 
 
 
