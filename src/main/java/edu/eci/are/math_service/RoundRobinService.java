@@ -11,8 +11,8 @@ import com.google.gson.JsonObject;
 @Service
 public class RoundRobinService {
     private static final List<String> DOMAINS = List.of(
-        "http://50.17.133.60:4567",
-        "http://54.174.147.40:4568"
+        "http://52.70.146.113:4567",
+        "http://44.210.0.255:4568"
     );
     private int currentIndex = 0;
     private final RestTemplate restTemplate = new RestTemplate();
